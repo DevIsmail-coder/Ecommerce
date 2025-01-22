@@ -32,7 +32,6 @@ const Details = () => {
         <p>category: {details.category}</p>
         <p className='Detailcontainer2desk'>Description: {details.description}</p>
         <p>price: ${details.price}</p>
-        {/* <p>{details.rating.rate}</p> */}
         <span className='Detailcontainer2span2'>
         <button className='Detailcontainer2span2but'>Add to cart</button>
         <button className='Detailcontainer2span2but'>Buy Now</button>
