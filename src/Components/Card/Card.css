@@ -1,0 +1,96 @@
+.Cardbody{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: yellow; */
+   padding-top: 100px;
+}
+.Cardmain{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: blue; */
+}
+
+.Cardmainimg{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.Cardmainname{
+    width: 15%;
+    height: 30px;
+    background-color: #FFFFFF;
+    padding: 8px;
+    color: yello;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 280px;
+    border-radius: 25px;
+    /* bottom: -50px; */
+}
+
+.Cardmainname:hover{
+    background-color: #A20401;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.Cardcontainer{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    /* background-color: orange; */
+    /* background-color: #FFFFFF; */
+    padding-bottom: 15px;
+}
+.Cardcontainerspan{
+    width: 35%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.Cardcontainerspanimg{
+    width: 70%;
+    height: 90%;
+    /* animation: animate__shakeX; */
+}
+
+.Cardcontainerspanh2{
+    font-size: 15px;
+}
+.Cardcontainerspanp{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 650px){
+    .Cardmain{
+        width: 80%;
+    }
+    .Cardmainname{
+        width: 50%;
+    }
+}
+.Cardmainimg{
+    width: 100%;
+    /* position: relative; */
+}

@@ -1,0 +1,84 @@
+.Detailsbody{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* background-color: blue; */
+}
+
+.Detailcontainer1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.Detailcontainer1span{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.Detailcontainer1img{
+    width: 70%;
+    height: 80%;
+    border-radius: 9px;
+}
+
+.Detailcontainer2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: green; */
+}
+
+.Detailcontainer2span{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: blue; */
+}
+
+.Detailcontainer2desk{
+    width: 90%;
+    font-family: jost;
+    font-size: 16px;
+    word-spacing: 5px;
+}
+.Detailcontainer2span2{
+    width: 100%;
+    height: 50px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Detailcontainer2span2but{
+    width: 40%;
+    height: 80%;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.Detailcontainer2span2but:hover{
+    background-color: #A20401;
+    color: #F7F7F7;
+}

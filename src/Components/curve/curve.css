@@ -1,0 +1,48 @@
+.curvebody{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+        /* background-color: green; */
+        padding-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+
+.curvemain{
+    width:  280px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.curvebodyspan{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    border-radius: 9px;
+    background-color: #F7F7F7;
+}
+
+.curvebodyspanimg{
+    width: 80%;
+    height: 80%;
+    border-radius: 9px;
+}
+
+.curvebodybut{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #A20401;
+    color: #F7F7F7;
+    border: none;
+}

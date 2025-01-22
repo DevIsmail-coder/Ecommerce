@@ -1,0 +1,103 @@
+.Headerbody {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* align-items: center;  */
+    position: fixed;
+    z-index: 100;
+}
+
+.Headerspan1 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: orange; */
+}
+
+.Headerspan2 {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    /* background-color: red; */
+    gap: 90px;
+    align-items: center;
+}
+
+.Headerspan2:hover {
+    color: #A20401;
+}
+
+.Headerspan3 {
+    width: 29%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Headerspan3div {
+    width: 10%;
+    height: 52%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Headerspan3div:hover {
+    border: 1px solid #A20401;
+}
+
+.CartWrapper {
+    position: fixed;
+    top: 70px;
+    background-color: white;
+    height: 90vh;
+    width: 500px;
+    z-index: 100;
+    right: 0;
+}
+
+@media screen and (max-width: 650px) {
+    .Headerspan3 {
+        width: 70%;
+        /* background-color: pink; */
+        display: flex;
+        gap: 35px;
+        justify-content: end;
+        align-items: center;
+    }
+    .Headerspan1 {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* background-color: orange; */
+        font-size: 12px;
+    }
+    .Headerspan2 {
+        display: none;
+    }
+}
