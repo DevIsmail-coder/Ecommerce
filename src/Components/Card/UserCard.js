@@ -13,7 +13,7 @@ const User = [
         name: "Women Clothes",
         text: "Amazing Value Every Day",
         text2: "Items prices that fit your budget.",
-        image1: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT2atyHoas9G2h1bfJKfILH5wKaQhnu9qqLgFNUe0ef3FDbgEqVbxI5b_NEIipDl3R1PWS1nEDGTUgewSx7hxZX5Iaxxi7ZhWYmcnCqwibO&usqp=CAc",
+        image1: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTuN0tXgpmWdLMuh3bQyqBn0rHcKX6BkN9ALiS2wP69cojwA_L6bZAvR-YuD5wk5787eSi9_cec9Do9jCSvQpOae6I3jGR7_jfGZZtNULbk4RfM21keAh5cpti64vQg&usqp=CAc",
         image2: "https://book-store-oou5.onrender.com/feature-2.png"
     },
     

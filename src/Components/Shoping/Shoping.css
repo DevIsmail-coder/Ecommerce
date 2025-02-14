@@ -75,16 +75,13 @@
     color: #F7F7F7;
     border: none;
 }
+
+.Shopingdivspan2but:hover{
+    background-color: #23262E;
+}
+
 .Shopingcontainer3{
     width: 95%;
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 18px;
-    background-color: green;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
-
 }
 
 

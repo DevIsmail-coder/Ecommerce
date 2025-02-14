@@ -76,9 +76,10 @@
 .ClearCartButton{
     width: 100px;
     height: 30px;
-    background-color: red;
+    background-color: #A20401;
     border: none;
     color: white;
+    border-radius: 5px;
     cursor: pointer;
 
 }

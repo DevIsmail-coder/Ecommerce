@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { CiShoppingCart } from "react-icons/ci";
 import './Cart.css'
+import { useNavigate } from 'react-router-dom';
 const Cart = () => {
     const [cart, setCart] = useState(() => {
         const savedCart = localStorage.getItem('cart')
@@ -30,6 +31,7 @@ const Cart = () => {
         });
     };
 
+    const navigate = useNavigate()
 
 
    const reduceQty = (oldItem) => {
@@ -86,7 +88,7 @@ const Cart = () => {
                     <p>Total Price: ${totalPrice}</p>
                 </span>
                 <span>
-                  <button className='ClearCartButton'>Clear cart</button>
+                  <button className='ClearCartButton' onClick={() => navigate("/checkout")}>Check out</button>
                 </span>
             </div>
         </div>

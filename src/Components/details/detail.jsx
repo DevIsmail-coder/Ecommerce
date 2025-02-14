@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
+import Header from '../Header/Header'
 import './detail.css'
 
 const Details = () => {
@@ -7,6 +8,7 @@ const Details = () => {
   const [details, setProductDetails] = useState({})
 
   const url = `https://fakestoreapi.com/products/${id}`
+  // const urls = `https://fakestoreapi.com/categories/${id}/products`
 
   const fetchProductDetails = () => {
     fetch(url)
@@ -21,6 +23,7 @@ const Details = () => {
   }, [])
   return (
     <div className='Detailsbody'>
+      <Header />
       <article className='Detailcontainer1'>
         <span className='Detailcontainer1span'>
         <img src={details.image} alt="" className='Detailcontainer1img'/>

@@ -5,18 +5,18 @@ import './curve.css'
 const Curve = () => {
 const [data, setData] = useState([])
 
-// const url = "https://backendecommerce-xr0i.onrender.com/api/v1/" 
+const url = "https://backendecommerce-xr0i.onrender.com/api/v1/" 
 
-// const fetchdata = () => {
-//     fetch(url)
-//     .then((res) => res.json())
-//     .then((res) => setData(res))
-//     .catch((error) => console.log(error))
-// }
+const fetchdata = () => {
+    fetch(url)
+    .then((res) => res.json())
+    .then((res) => setData(res))
+    .catch((error) => console.log(error))
+}
 
-// useEffect(() => {
-//     fetchdata()
-// }, [])
+useEffect(() => {
+    fetchdata()
+}, [])
 
   return (
     <div className='curvebody'>

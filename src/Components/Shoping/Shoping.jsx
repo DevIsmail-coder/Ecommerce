@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Shoping.css';
 import Card from '../Card/Card';
 import { useNavigate } from 'react-router-dom';
+import Header from '../Header/Header';
 import Curve from '../curve/curve';
 
 const Shoping = () => {
@@ -38,9 +39,8 @@ const Shoping = () => {
 
     const addToCart = (newItem) => {
         setCart((prev) => {
-            // Ensure `prev` is always an array
             const existingItem = prev.find((item) => item.id === newItem.id);
-
+             
             if (existingItem) {
                 return prev.map((item) =>
                     item.id === newItem.id
@@ -53,7 +53,27 @@ const Shoping = () => {
         });
     };
 
+
+    //  const addToCart = (newItem) => {
+    //     console.log(newItem);
+    //     setCart((prev) => {
+    //         const existingItem = prev?.find((item) => item.id === newItem.id);
+
+    //         if(existingItem) {
+    //             return prev?.map((item) => item.id === newItem.id ? {...item, quantity: item.quantity + 1} : item
+    //          )
+    //         }else {
+    //             return[...prev, {...newItem, quantity: 1}]
+    //         }
+    //     })
+    //  }
+
+     console.log(cart)
+
+
     return (
+        <> 
+        <Header />
         <div className='Shopingbody'>
             <div className='Shopingcontainer1'>
                 <Card />   
@@ -80,6 +100,7 @@ const Shoping = () => {
                 <Curve />
             </div>
         </div>
+        </>
     );
 };
 
