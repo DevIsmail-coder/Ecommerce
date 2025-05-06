@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import "./shoping.css"
-
 import { useNavigate } from 'react-router-dom';
 import Header from '../Header/Header';
 import Card from '../card/Card';
-// import Curve from '../curve/curve';
 
 const Shoping = () => {
     const [userData, setUserData] = useState([]);

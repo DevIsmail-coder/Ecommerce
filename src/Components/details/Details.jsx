@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import './detail.css'
+import './details.css'
 import Header from '../Header/Header'
 
 const Details = () => {
@@ -8,7 +8,6 @@ const Details = () => {
   const [details, setProductDetails] = useState({})
 
   const url = `https://fakestoreapi.com/products/${id}`
-  // const urls = `https://fakestoreapi.com/categories/${id}/products`
 
   const fetchProductDetails = () => {
     fetch(url)
