@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import Header from '../Header/Header'
 import './detail.css'
+import Header from '../Header/Header'
 
 const Details = () => {
   const { id } = useParams()

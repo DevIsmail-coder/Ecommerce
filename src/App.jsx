@@ -1,14 +1,13 @@
 
 import './App.css'
-import Details from './Components/details/detail'
-// import Header from './Components/Header/Header'
-import Shoping from './Components/Shoping/Shoping'
+import Details from './Components/details/Detail'
+import Shoping from './Components/shoping/Shoping'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Store from './Components/StorePage/Store'
+import Store from './Components/storepage/Store'
 import Category from './Components/Category'
 import LoginPage from './Components/LoginPage/LoginPage'
-import SignupPage from './Components/SignupPage/SignupPage'
-import Checkout from './Components/Checkout/Checkout'
+import SignupPage from './Components/signupPage/SignupPage'
+import Checkout from './Components/checkout/Checkout'
 
 function App() {
 
@@ -20,7 +19,6 @@ function App() {
     <div className='Appbody'>
         
       <BrowserRouter>
-      {/* <Header /> */}
         <Routes>
         <Route path='/' element={<LoginPage />} />
         <Route path='/signpage' element={<SignupPage />} />
