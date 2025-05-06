@@ -80,9 +80,6 @@ const Shoping = () => {
                     </div>
                 ))}
             </div>
-            {/* <div className='Shopingcontainer3'>
-                <Curve />
-            </div> */}
         </div>
         </>
     );
